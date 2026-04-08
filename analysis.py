@@ -25,7 +25,7 @@ print("\n--- Top Products ---")
 print(top_products)
 
 # Save report to CSV
-revenue_by_category.to_csv("revenue_by_category.csv")
-top_products.to_csv("top_products.csv")
+revenue_by_category.to_csv("output/revenue_by_category.csv")
+top_products.to_csv("output/top_products.csv")
 
 print("\nReports saved as CSV files.")
